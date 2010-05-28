@@ -1,0 +1,15 @@
+<li>
+  <% @cardlist = cardlist %>
+  <h3>
+	<%= in_place_editor_field "cardlist", :title, {},
+								{:rows => 1,
+								:highlightcolor => "#737373",
+								:highlightendcolor => "#434343"} %>
+  </h3>
+  <%= link_to_remote "Delete",
+		:url => { :action => "delete_cardlist", :id => cardlist },
+		:confirm => "Are you sure?" %>
+  |<%= link_to_remote "Edit",
+		:url => { :action => "load_cardlist", :id => cardlist } %>
+  | <%= cardlist.updated_at.month %>.<%= cardlist.updated_at.day %>.<%= cardlist.updated_at.year %>
+</li>

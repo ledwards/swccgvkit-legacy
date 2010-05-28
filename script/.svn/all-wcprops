@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/s_terron/swccgvkit/!svn/ver/4/trunk/script
+END
+darkside.cdf
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/darkside.cdf
+END
+import_vcard_data.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/import_vcard_data.rb
+END
+import_v6-2.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/import_v6-2.rb
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/destroy
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/generate
+END
+fix_bad_db_entries.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/fix_bad_db_entries.rb
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/plugin
+END
+import_revolution.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/import_revolution.rb
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/console
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/server
+END
+lightside.cdf
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/lightside.cdf
+END
+dbconsole
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/dbconsole
+END
+import_v17.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/import_v17.rb
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/about
+END
+import_v18.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/import_v18.rb
+END
+ferret_server
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/s_terron/swccgvkit/!svn/ver/4/trunk/script/ferret_server
+END

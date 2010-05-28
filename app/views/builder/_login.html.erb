@@ -1,0 +1,11 @@
+<div id="login">
+  <% form_remote_tag (:url => {:action => 'login'}) do %>
+    <%= text_field_tag 'name', "USERNAME", :class => 'text-field', :id => 'login_username_field' %>
+    <%= password_field_tag 'password', "Password", :class => 'text-field', :id => 'login_password_field' %>
+    <%= submit_tag "Login", :class => 'button', :id => 'login_button' %>
+  <% end %>
+
+  <%= text_field_hint "login_username_field" %>
+  <%= text_field_hint "login_password_field" %>
+
+</div>

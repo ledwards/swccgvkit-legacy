@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/samplers
+END
+mongrel.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/samplers/mongrel.rb
+END
+cpu.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/samplers/cpu.rb
+END
+memory.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/samplers/memory.rb
+END

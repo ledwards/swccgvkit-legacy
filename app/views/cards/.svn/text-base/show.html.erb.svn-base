@@ -1,0 +1,33 @@
+<p>
+  <b>Title:</b>
+  <%=h @card.title %>
+</p>
+
+<p>
+  <b>Set:</b>
+  <%=h @card.expansion %>
+</p>
+
+<p>
+  <b>Side:</b>
+  <%=h @card.side %>
+</p>
+
+<p>
+  <b>Thumbnail url:</b>
+  <%=image_tag @card.thumbnail_url %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%=image_tag @card.image_url %>
+</p>
+
+<p>
+  <b>Vslip url:</b>
+  <%=image_tag @card.vslip_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_card_path(@card) %> |
+<%= link_to 'Back', cards_path %>

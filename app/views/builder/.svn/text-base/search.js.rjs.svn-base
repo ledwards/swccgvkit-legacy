@@ -1,0 +1,2 @@
+page.replace_html("search_results", :partial => "search_result", :collection => @search_results)
+page.replace_html("notice", "#{@search_results.length} Results")

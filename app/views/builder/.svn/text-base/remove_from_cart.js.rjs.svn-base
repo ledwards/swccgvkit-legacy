@@ -1,0 +1,2 @@
+page.replace_html("cart", :partial => "cart", :object => Card.find(params[:id]))
+page.replace_html("notice", @notice)

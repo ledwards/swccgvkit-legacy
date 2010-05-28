@@ -1,0 +1,27 @@
+<div class="lightbox-content">
+	<h2>Settings</h2>	
+
+	<h3>Localization</h3>
+		<p>Set Page Size:</p>
+		<% form_remote_tag (:url => {:action => 'set_page_size'},
+			:html => {:id => 'set_page_size'}) do %>
+		    <select id = 'page_size' name = 'page_size'
+					onchange = "new Ajax.Request('builder/set_page_size', {
+					parameters : $('set_page_size').serialize(this)
+					});">
+					<% if session[:page_size] == "LETTER" %>
+						<option selected value = 'LETTER'>U.S. Letter (8.5"x11")</option>
+						<option value = 'A4'>A4 (210mm x 297mm)</option>
+					<% elsif session[:page_size] == "A4" %>
+						<option value = 'LETTER'>U.S. Letter (8.5" x 11")</option>
+						<option selected value = 'A4'>A4 (210mm x 297mm)</option>
+					<% else %>
+						<option>Error loading your preferences, Try clearing your cookies.</option>
+					<% end %>
+			</select>
+		<% end %>	
+		<p>
+			<%= link_to image_tag("delete.png"), {},
+				:id => "close_button", :class => "lbAction", :rel => "deactivate" %>
+		</p>
+</div>

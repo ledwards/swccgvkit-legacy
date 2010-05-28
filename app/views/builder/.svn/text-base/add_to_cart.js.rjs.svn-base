@@ -1,0 +1,5 @@
+page.replace_html("cardlists", :partial => "cardlists", :object => @cardlists)
+page.replace_html("cart", :partial => "cart", :object => @cart)
+page.replace_html("notice", "Card successfully added.")
+
+page[:current_item].visual_effect :pulsate, { :pulses => 1, :duration => 0.25 }

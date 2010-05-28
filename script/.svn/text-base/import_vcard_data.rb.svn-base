@@ -1,0 +1,71 @@
+#!/usr/bin/env ruby
+require 'config/environment'
+
+# This file was only used to initialize the database.
+# DO NOT USE IT FOR REGULAR UPDATES
+# It will delete data
+
+files = ["script/lightside.cdf", "script/darkside.cdf"]
+
+dry = false
+
+if dry
+  puts "Dry run..."
+else
+  #puts "Destroying current card data..."
+  for card in Card.find(:all)
+    card.destroy
+  end
+  puts "Writing to database..."
+end
+
+files.each do |curfile|
+  
+  file = File.new(curfile,"r") #do both files
+  while (line=file.gets)
+    
+    regexp1 = /card\s"(.*?)"\s"([<>•]*)(.*)\(([^V]*)\)\\n(\S*)\s(.*?)\[(.*)\]\s?\\nSet:\s(.*?)\\n/ #Basic card info
+
+    if not regexp1.match(line).nil?
+      image_url,uniqueness,title,destiny,side,type,rarity,expansion = regexp1.match(line).captures
+      title.gsub!('•','')
+      title.strip!
+      type.strip!
+      vslip_url = "/images/vslips" + image_url.gsub("/t_","/").gsub("/starwars","") + ".png" # use an implied root path
+      thumbnail_url = "http://www.swccgonline.com/images/cards" + image_url + ".gif" # use an implied root path
+      if type == "Objective"
+        regexp2 = /(.+)\s?\/\s?(.+)/ # split Front and Back of Objective
+        front, back = regexp2.match(title).captures
+        
+        vslip_url = "/images/vslips/" +
+          expansion.gsub('Set','').gsub(" ","").gsub("'","").downcase.strip + "-" + side.downcase.strip + '/' +
+          title.gsub('(v)','').gsub('(V)','').gsub(' / ','_').gsub('/', '_').gsub(" ","").gsub("'","").gsub(".","").downcase + '.png'
+        
+        thumbnail_url = "http://www.swccgonline.com/images/cards/starwars/" + 
+          expansion.gsub('Set','').gsub(" ","").gsub("'","") + "-" + side.strip + "/" + 
+          "t_" + front.gsub('(v)','').gsub('(V)','').gsub(' / ','_').gsub(" ","").gsub("'","").gsub(".","").downcase + '.gif'
+        
+      end
+      
+      if expansion.first(7) == "Virtual" and expansion != "Virtual Defensive Shields" and title.index("(AI)").nil?
+        if title.last(3) != "(V)"
+          title = title + " (V)"
+        end
+        
+        this_card = Card.new( :vslip_url => vslip_url,
+                              :thumbnail_url => thumbnail_url,
+                              :image_url => thumbnail_url,
+                              :title => title,
+                              :side => side,
+                              :expansion => expansion )
+        this_card.save unless dry
+        puts title, side, expansion, vslip_url, thumbnail_url, "\n" if dry
+      end
+      
+    end
+    
+  end
+  
+end
+
+puts "...Done" unless dry

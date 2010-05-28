@@ -1,0 +1,35 @@
+<h1>New card</h1>
+
+<% form_for(@card) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :expansion %><br />
+    <%= f.text_field :set %>
+  </p>
+  <p>
+    <%= f.label :expansion %><br />
+    <%= f.text_field :side %>
+  </p>
+  <p>
+    <%= f.label :thumbnail_url %><br />
+    <%= f.text_field :thumbnail_url %>
+  </p>
+  <p>
+    <%= f.label :image_url %><br />
+    <%= f.text_field :image_url %>
+  </p>
+  <p>
+    <%= f.label :vslip_url %><br />
+    <%= f.text_field :vslip_url %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', cards_path %>

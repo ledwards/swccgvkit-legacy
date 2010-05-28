@@ -1,0 +1,13 @@
+<div id="register">
+  <% form_remote_tag (:url => {:action => 'register'}) do %>
+    <%= text_field_tag 'name', "DESIRED USERNAME", :class => 'text-field', :id => 'register_username_field' %>
+    <%= password_field_tag 'password', "password", :class => 'text-field', :id => 'register_password_field' %>
+	<%= password_field_tag 'password_confirmation', "password", :class => 'text-field',
+							:id => 'register_password_confirmation_field' %>
+    <%= submit_tag "Register", :class => 'button', :id => 'register_button' %>
+  <% end %>
+
+  <%= text_field_hint "register_username_field" %>
+  <%= text_field_hint "register_password_field" %>
+  <%= text_field_hint "register_password_confirmation_field" %>
+</div>

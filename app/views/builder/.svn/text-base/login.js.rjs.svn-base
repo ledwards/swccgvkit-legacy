@@ -1,0 +1,4 @@
+page.replace_html("cardlists", :partial => "cardlists", :object => @cardlists)
+page.replace_html("cart", :partial => "cart", :object => @cart)
+page.replace_html("notice", @notice)
+page.replace_html("links", :partial => "links")

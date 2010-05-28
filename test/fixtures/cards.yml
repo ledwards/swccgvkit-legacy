@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+darth_vader:
+  title: "Darth Vader (V)"
+  expansion: "Virtual Set 1"
+  side: "Dark"
+  thumbnail_url: "http://www.swccgonline.com/images/cards/starwars/Virtual1-Dark/t_darthvader.gif"
+  image_url: "http://www.swccgonline.com/images/cards/starwars/Virtual1-Dark/t_darthvader.gif"
+  vslip_url: "/images/vslips/virtual1-dark/darthvader.png"
+
+darth_vaders_lightsaber:
+  title: "Darth Vader's Lightsaber (V)"
+  expansion: "Virtual Set 10"
+  side: "Dark"
+  thumbnail_url: "http://www.swccgonline.com/images/cards/starwars/Virtual10-Dark/t_darthvaderslightsaber.gif"
+  image_url: "http://www.swccgonline.com/images/cards/starwars/Virtual10-Dark/t_darthvaderslightsaber.gif"
+  vslip_url: "/images/vslips/virtual10-dark/darth_vaders_lightsaber.png"

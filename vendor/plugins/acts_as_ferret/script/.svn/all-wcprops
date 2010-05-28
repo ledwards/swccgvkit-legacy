@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/acts_as_ferret/script
+END
+ferret_service
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/acts_as_ferret/script/ferret_service
+END
+ferret_daemon
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/acts_as_ferret/script/ferret_daemon
+END
+ferret_server
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/acts_as_ferret/script/ferret_server
+END

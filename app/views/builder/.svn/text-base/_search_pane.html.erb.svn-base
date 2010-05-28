@@ -1,0 +1,22 @@
+<div id="search">	
+	<div class="button-container">	
+		<% form_remote_tag :url => { :action => "search" },
+			:loading => "Element.show('spinner'); $('notice').update('Searching...')", 
+			:success => "Element.hide('spinner');" do %>
+				<%= text_field_with_auto_complete :search, :query, {
+					:size => 32,
+					:value => "Search for cards"
+				},
+				:method => :get %>	
+			<%= submit_tag "Search", :class => "button" %>
+		<% end %>
+	</div>
+	<div class="button-container">
+		<% form_remote_tag :url => { :action => "browse"},
+			:loading => "Element.show('spinner'); $('notice').update('Searching...')", 
+			:success => "Element.hide('spinner');" do %>
+			<%= submit_tag "Browse", :class => "button" %>	
+		<% end %>
+  	</div>
+	<%= text_field_hint "search_query" %>
+</div>

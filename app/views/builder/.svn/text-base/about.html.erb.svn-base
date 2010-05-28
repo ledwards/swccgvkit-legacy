@@ -1,0 +1,50 @@
+<div class="lightbox-content">
+	<h2>About</h2>
+
+	<h3>About swccgvkit online</h3>
+	<p>
+		swccgvkit online is designed and maintained by Lee Edwards as a free service to the
+		Star Wars CCG community. The application is written using
+		<%= link_to "Ruby on Rails", "http://www.rubyonrails.org", :popup => :true %>
+		and is best-viewed using 
+		<%= link_to "Firefox 3", "http://www.getfirefox.com", :popup => :true %>.
+		
+		We are currently in beta, which means that we are aggressively seeking
+		<%= mail_to "lee@swccgvkit.com", "feedback" %> on our software and any new
+		features that are released.
+		Note that changes will be happening rather rapidly and the integrity of your saved data is not guaranteed.
+	</p>
+	
+	<h3>Contact</h3>
+	<p>
+		Please feel free to <%= mail_to "lee@swccgvkit.com", "contact" %> us with bugs, suggestions, and feedback.
+	</p>
+	
+	<h3>Thanks</h3>
+	<p>
+	Special thanks to <%= link_to "Jon Schlossberg", "http://www.jschlossberg.com", :popup => :true %>,
+		Mark VanDriel, JW Millet, Ryan French, Mike French, Brian Hollingworth, Tom Hollingworth,
+		the <%= link_to "Star Wars CCG Player's Committee", "http://www.swccgpc.com", :popup => :true %>,
+		<%= link_to "RailsPlayground", "http://www.railsplayground.com", :popup => :true %>,
+		and all of our beta testers.
+	</p>
+	
+	<h3>Contribute</h3>
+	<p>
+		vkit is provided to you free of charge, but is not free to maintain. If you enjoy swccgvkit online,
+		please consider donating.
+	</p>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		<input type="hidden" name="cmd" value="_s-xclick">
+		<input type="hidden" name="hosted_button_id" value="2091302">
+		<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="">
+		<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	
+	<p class="latest">Latest update: 06-DEC-2009</p>
+	<p class="latest">Latest card text as of: 06-DEC-2009</p>
+
+	<p>
+		<%= link_to image_tag("delete.png"), {}, :id => "close_button", :class => "lbAction", :rel => "deactivate" %>
+	</p>
+</div>

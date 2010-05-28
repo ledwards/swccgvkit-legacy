@@ -1,0 +1,2 @@
+page.replace_html("cardlists", :partial => "cardlists")
+page.replace_html("notice", "Cardlist saved.")

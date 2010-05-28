@@ -1,0 +1,21 @@
+<p>
+  <h1><%=h @user.name %></h1>
+</p>
+
+<table>
+	<tr><th>Cardlists</th><tr>
+	<% @user.cardlists.each do |c| %>
+		<tr><td>
+			<%= link_to c.title, :controller => "cardlists", :action => "show", :id => c.id %> (<%= c.total_quantity %>)
+		</td></tr>
+	<% end %>
+</table>
+
+<hr>
+
+<p>
+	<%= link_to "Reset password", :action => "#" %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

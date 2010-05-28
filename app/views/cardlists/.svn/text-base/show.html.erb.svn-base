@@ -1,0 +1,8 @@
+<p>
+  <b>Title:</b>
+  <%=h @cardlist.title %>
+</p>
+
+
+<%= link_to 'Edit', edit_cardlist_path(@cardlist) %> |
+<%= link_to 'Back', cardlists_path %>

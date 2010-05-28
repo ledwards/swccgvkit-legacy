@@ -1,0 +1,23 @@
+<h1>Saved Cardlists (<%= @user.name %>)</h1>
+<div id="cardlists">
+	<% if @user == User.find(2) %>
+		<h2>Login or register<br>to save your cardlists.</h2>
+		<h3 class="login-register-header">Login</h3>
+		<%= render :partial => "login" %>
+		<h3 class="login-register-header">Register</h3>
+		<%= render :partial => "register" %>
+	<% else %>
+		<% if @cardlists.empty? %>
+	  		<h2>Click to create a new cardlist.</h2>
+	 	<% else %>
+			<ul>
+			 	<%= render :partial => "cardlist", :collection => @cardlists.collect %>
+			</ul>
+		<% end %>
+		<div class = "button-container">
+			<% form_remote_tag :url => { :action => "new_cardlist" } do %>
+				<%= submit_tag "New", :class => "button" %>
+			<% end %>
+		</div>
+	<% end %>
+</div>

@@ -1,0 +1,5 @@
+<ul>
+  <% for search_result in @cards %>
+    <li><% form_remote_tag  :url => { :action => :add_to_cart, :id => search_result }, :loading => "Element.show('spinner'); $('notice').update('Adding card...');", :complete => "Element.hide('spinner');"	do %><div class = "informal" id = "autocomplete-thumbnail"><%= image_submit_tag search_result.thumbnail_url, :loading => "Element.show('spinner'); $('notice').update('Adding card...');", :complete => "Element.hide('spinner');" -%></div><div class = "results-name"><%= link_to_remote search_result.title,:url => {:action => "add_to_cart", :id => search_result},:loading => "Element.show('spinner'); $('notice').update('Adding card...');",:complete => "Element.hide('spinner');" -%><br /><div class="informal"><%= search_result.expansion -%> <%= search_result.side -%></div></div><% end %></li>
+  <% end %>
+</ul>

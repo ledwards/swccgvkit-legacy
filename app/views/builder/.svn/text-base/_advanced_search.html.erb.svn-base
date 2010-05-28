@@ -1,0 +1,18 @@
+<div id = "advanced_search">
+	<h3>Set:
+		<%= link_to_remote "Dark", :url => {:action => "nothing"} -%>
+		 | 
+		<%= link_to_remote "Light", :url => {:action => "nothing"} -%>
+	</h3>
+	<h3>
+		Expansion:
+			<% (1..16).collect do |i| %>
+				<%= link_to_remote i.to_s, :url => {:action => "nothing"} -%>
+				<% if i % 10 == 0 %>
+					<%= "<br>" %>
+				<% elsif i != 16 %>
+					<%= " | " %>
+				<% end %>
+			<% end %>
+	</h3>
+</div>

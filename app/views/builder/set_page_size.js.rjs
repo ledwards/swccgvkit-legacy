@@ -1,0 +1,1 @@
+page.replace_html("notice", "Page size set to " + @prawnto_options[:prawn][:page_size])

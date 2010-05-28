@@ -1,0 +1,20 @@
+<% if cart_item == @current_item %>
+ <div class="cart_item" id="current_item">
+<% else %>
+ <div class="cart_item">
+<% end %>
+  <% @line_item = cart_item %>
+  <%= link_to_remote image_tag("/images/delete.png"),
+							:url => {:action => "remove_from_cart", :id => cart_item.card },
+							:loading => "Element.show('spinner'); $('notice').update('Removing card...')", 
+							:success => "Element.hide('spinner');" -%>
+  <%= in_place_editor_field :line_item, :quantity, {}, {
+							:rows => 1,
+							:columns => 2,
+							:ok_control => "false",
+							:cancel_control => "false",
+							:highlightcolor => "#737373",
+							:highlightendcolor => "#434343"} -%>x
+  <%= cart_item.card.truncated_title(32) -%>
+
+</div>

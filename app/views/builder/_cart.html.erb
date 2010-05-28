@@ -1,0 +1,28 @@
+<h1>
+	<% if @cart.nil? %>
+		New Cardlist
+	<% else %>	
+	  <%= @cart.title %> (<%= @cart.total_quantity %>)
+	<% end %>
+</h1>
+
+<% if @cart.nil? or @cart.line_items.empty? %>
+  <h2>Use Search to add cards.</h2>
+<% else %>
+  <%= render(:partial => "cart_item" , :collection => @cart.line_items) %>
+<% end %>
+
+<% if not @cart.line_items.empty? %>
+	<div class = "button-container">
+	    <% form_tag("/cardlists/#{@cart.id.to_s}.pdf", :method => "get") do %>
+	      <%= submit_tag "Print" , :class => "button" %>
+	    <% end %>
+	</div>
+
+	<div class = "button-container">
+	    <% form_remote_tag :url => { :action => "clear_cart" }, :confirm => "Are you sure?" do %>
+	      <%= submit_tag "Clear" , :class => "button" %>
+	    <% end %>
+	</div>
+<% end %>
+  

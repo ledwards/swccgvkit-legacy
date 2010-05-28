@@ -1,0 +1,20 @@
+<h1>Listing cardlists</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+  </tr>
+
+<% for cardlist in @cardlists %>
+  <tr>
+    <td><%=h cardlist.title %></td>
+    <td><%= link_to 'Show', cardlist %></td>
+    <td><%= link_to 'Edit', edit_cardlist_path(cardlist) %></td>
+    <td><%= link_to 'Destroy', cardlist, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New cardlist', new_cardlist_path %>

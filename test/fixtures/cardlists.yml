@@ -1,0 +1,5 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+vader_cardlist:
+  title: "Vader and his stuff"
+  user_id: 1

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/users
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/users/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/users/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/users/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/users/show.html.erb
+END

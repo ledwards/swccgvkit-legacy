@@ -1,0 +1,5 @@
+<%= link_to "About", {:action => "about"}, :class => "lbOn" -%>
+<% if @user != User.find(2) %>
+	 | <%= link_to "Settings", {:action => "settings"}, :class => "lbOn" -%> | 
+	<%= link_to_remote "Logout", :url => {:action => "logout"} %>
+<% end %>

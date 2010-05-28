@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/cardlists
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/cardlists/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/cardlists/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/cardlists/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/cardlists/show.html.erb
+END
+show.pdf.prawn
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/cardlists/show.pdf.prawn
+END

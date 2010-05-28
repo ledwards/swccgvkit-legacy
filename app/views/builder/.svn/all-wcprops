@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder
+END
+save_cart.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/save_cart.js.rjs
+END
+_cart_item.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_cart_item.html.erb
+END
+login.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/login.js.rjs
+END
+_search_pane.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_search_pane.html.erb
+END
+_login.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_login.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/index.html.erb
+END
+logout.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/logout.js.rjs
+END
+about.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/about.html.erb
+END
+new_cardlist.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/new_cardlist.js.rjs
+END
+_links.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_links.html.erb
+END
+set_page_size.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/set_page_size.js.rjs
+END
+_auto_complete_results.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_auto_complete_results.html.erb
+END
+register.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/register.js.rjs
+END
+_register.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_register.html.erb
+END
+delete_cardlist.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/delete_cardlist.js.rjs
+END
+_cardlists.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_cardlists.html.erb
+END
+remove_from_cart.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/remove_from_cart.js.rjs
+END
+_cart.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_cart.html.erb
+END
+_advanced_search.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_advanced_search.html.erb
+END
+clear_cart.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/clear_cart.js.rjs
+END
+browse.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/browse.js.rjs
+END
+settings.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/settings.html.erb
+END
+add_to_cart.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/add_to_cart.js.rjs
+END
+_search_result.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_search_result.html.erb
+END
+load_cardlist.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/load_cardlist.js.rjs
+END
+search.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/search.js.rjs
+END
+_cardlist.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/s_terron/swccgvkit/!svn/ver/4/trunk/app/views/builder/_cardlist.html.erb
+END

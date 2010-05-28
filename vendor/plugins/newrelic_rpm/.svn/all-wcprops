@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/LICENSE
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/version.txt
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/install.rb
+END
+newrelic.yml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/newrelic.yml
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/s_terron/swccgvkit/!svn/ver/4/trunk/vendor/plugins/newrelic_rpm/README
+END
